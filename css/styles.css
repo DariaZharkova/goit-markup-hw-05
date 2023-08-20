@@ -675,7 +675,7 @@ p {
   outline: transparent;
 
   font-size: 12px;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--whight-color);
 }
@@ -689,7 +689,6 @@ p {
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
 
   min-width: 165px;
   height: 40px;
@@ -709,6 +708,7 @@ p {
 
 .footer-form-button-icon {
   fill: currentColor;
+  margin-left: 16px;
 }
 
 .footer-form-button:hover,
@@ -805,7 +805,8 @@ p {
   color: var(--dark-color);
 }
 
-.modal-form {
+.modal-form-container {
+  margin-bottom: 8px;
 }
 
 .modal-form-label {
@@ -820,7 +821,6 @@ p {
 
 .modal-form-field {
   position: relative;
-  margin-bottom: 8px;
 }
 
 .modal-form-input,
