@@ -903,17 +903,10 @@ textarea {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-input[type='checkbox']:checked + .checkbox-span {
+input[type='checkbox']:checked + label span {
   background-color: var(--pressed-state-color);
   border: none;
   fill: var(--light-color);
-}
-
-.checkbox-description {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: var(--subtle-text-color);
 }
 
 .modal-form-link {
